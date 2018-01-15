@@ -24,7 +24,7 @@
 		navigator.geolocation.getCurrentPosition(function(posi){
 			latitude = posi.coords.latitude;
 			longitude = posi.coords.longitude;
-			window.open('http://map.baidu.com/?latlng='+ latitude +','+ longitude +'&autoOpen=true', '_self');
+			alert(latitude, longitude);
 		});
 	</script>
 </body>
